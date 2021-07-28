@@ -127,5 +127,5 @@ piyo.onGlobalParticipantsChanged(async (event) => {
 }
 //create session
 create(options(true, start))
-    .then((piyo) => start(piyo))
+    .then((apri) => start(apri))
     .catch((err) => new Error(err))
